@@ -1,0 +1,22 @@
+title: "Mi Sitio Jekyll"
+description: "Este es mi sitio web usando Jekyll y GitHub Pages."
+baseurl: "" # Asegúrate de que esto esté vacío si estás usando el dominio predeterminado de GitHub Pages.
+url: "https://tu-usuario.github.io" # La URL de tu sitio
+theme: minima
+
+# Configuración de markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Incluye los directorios y archivos necesarios
+include:
+  - _pages
+  - _posts
+
+# Excluye los archivos y directorios no necesarios
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
